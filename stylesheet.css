@@ -1,9 +1,10 @@
 h1{
     color:green;
+    font-size:80px;
 }
 
 h1:hover{
-    font-size:500%;
+    font-size:1600%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
         
 }
@@ -45,8 +46,8 @@ display: fixed;
 }
 
 @keyframes color-change2 {
-    0% { color: red; font-size:12px; }
-    50% { color: orange; font-size:15px; }
+    0% { color: red; font-size:140px; }
+    50% { color: orange; font-size:260px; }
     100% {color:blue; font-size:450px;}
 }
 
