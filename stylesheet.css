@@ -1,0 +1,80 @@
+h1{
+    color:green;
+}
+
+h1:hover{
+    font-size:500%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+        
+}
+
+#second:hover{
+    color:white;
+    font-size:400%;
+}
+
+body{
+    background-color:yellow;
+    background-image: url("bepis.jpg");
+    background-repeat: round;
+}
+
+#harold{
+display: fixed;
+  max-width:5000px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+        animation:spin 4s linear infinite;
+      top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+#first{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+        animation: color-change 1s infinite;
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+@keyframes color-change {
+    0% { color: red; font-size:12px; }
+    50% { color: blue; font-size:15px; }
+    100% { color: yellow; font-size:18px; }
+}
+
+@keyframes color-change2 {
+    0% { color: red; font-size:12px; }
+    50% { color: orange; font-size:15px; }
+    100% {color:blue; font-size:450px;}
+}
+
+
+.page{
+    height:1000vh;
+}
+
+#instructions{
+    color:pink;
+    font-family: fantasy;
+}
+
+#second{
+    font-size:30px;
+}
+
+h3{
+    color:lightgreen;
+}
+
+#bbbb{
+    font-size:50px;
+            animation:spin 4s linear infinite;
+}
+
+a{
+    font-size:70px;
+    color:brown;
+    animation:color-change2 5s infinite;
+}
